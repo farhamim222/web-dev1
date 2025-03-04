@@ -1,0 +1,94 @@
+/* Full page styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Wrapper to align the form to the top-left */
+.contact-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px;
+  color: white;
+}
+
+/* Form box */
+.contact-form {
+  max-width: 300px;
+  width: 100%;
+  color: #0f0f0f;
+}
+
+/* Form header */
+.contact-form h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: rgb(13, 13, 13);
+}
+
+/* Label styling */
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+/* Input fields */
+.contact-form input {
+  padding: 6px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button */
+.contact-form button {
+  padding: 8px 15px;
+  background-color: #181717;
+  color: #f1e3e3;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* Submit button hover effect */
+.contact-form button:hover {
+  background-color: #2c7ae0;
+}
+/* Input fields */
+.contact-form input {
+  padding: 6px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+}
+
+/* Fix for select dropdown */
+.contact-form select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* Sets background to white */
+  color: #000; /* Ensures text is black */
+}
+
+/* Fix for textarea */
+.contact-form textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* Sets background to white */
+  color: #000; /* Ensures text is black */
+}
